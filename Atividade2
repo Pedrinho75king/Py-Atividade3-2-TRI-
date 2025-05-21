@@ -1,0 +1,16 @@
+# Solicita uma palavra ao usuário
+palavra = input("Digite uma palavra: ")
+
+# Lista de vogais
+vogais = "aeiouAEIOU"
+
+# Contador de vogais
+contagem_vogais = 0
+
+# Laço for para contar as vogais
+for letra in palavra:
+    if letra in vogais:
+        contagem_vogais += 1
+
+# Exibe o total de vogais
+print(f"Total de vogais: {contagem_vogais}")
